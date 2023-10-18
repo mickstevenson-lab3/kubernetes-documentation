@@ -84,3 +84,57 @@ Integration: Dapr seamlessly integrates into various programming languages and f
 Distributed Systems Support: Manages rate limiting across multiple instances and services in distributed systems.
 Metrics and Observability: Integrates with monitoring tools for traffic insights.
 Load Balancer Compatibility: Ensures consistent rate limit enforcement across application instances.
+
+
+#####
+functional
+
+**Rate Limit Configuration:** Configure request limits (e.g., requests per second) for specific endpoints.
+
+**Granular Control:** Define limits for global, per user, or per endpoint scenarios.
+
+**Dynamic Adjustment:** Adjust limits in real-time to adapt to changing traffic.
+
+**Request Tracking:** Monitor incoming requests in real-time to enforce limits.
+
+**Request Throttling:** Temporarily delay, not reject, requests exceeding limits.
+
+**Custom Responses:** Define responses for exceeded limits to inform clients.
+
+**Whitelisting/Blacklisting:** Allow trusted sources and block malicious requests.
+
+**Logging and Monitoring:** Provide insights into traffic patterns and performance.
+
+**Integration:** Seamlessly fit into existing API infrastructure and frameworks.
+
+**Load Balancer Compatibility:** Ensure uniform limit enforcement across multiple API instances.
+
+
+#####
+non-functional
+
+
+
+**Performance:** Ensure minimal impact on response times and handle high request volumes efficiently.
+
+**Scalability:** Scale horizontally to accommodate increased loads without performance degradation.
+
+**Reliability:** Maintain high availability and resilience against failures.
+
+**Security:** Protect against abuse and security threats, including denial-of-service attacks.
+
+**Extensibility:** Easily integrate with other tools and adapt to future needs.
+
+**Configurability:** Allow flexible rate limit policy configurations.
+
+**Compliance:** Adhere to relevant regulatory standards.
+
+**Logging and Auditing:** Provide comprehensive tracking and transparency.
+
+**Usability:** Offer user-friendly interfaces for administrators and developers.
+
+**Adaptability:** Adjust to changing traffic patterns without disruptions.
+
+**Low Overhead:** Minimize latency and resource consumption.
+
+**Cost-Efficiency:** Operate cost-effectively in terms of infrastructure and resources.
