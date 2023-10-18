@@ -134,3 +134,25 @@ Image Security: Scan container images.
 Network Security: Implement network policies.
 Patching: Keep components updated.
 Backup/Recovery: Data backup mechanisms.
+
+
+write a summary of risk considerations for a CICD tool and kubernetes configuration management strategy
+
+CI/CD Tool:
+
+Access Control Risks: Unauthorized access risks.
+Artifact Tampering: Risk of tampering with build artifacts.
+Security Scanning Gaps: Vulnerability oversight risks.
+Integration Vulnerabilities: External integration risks.
+Unmonitored Activities: Limited monitoring risks.
+Outdated Software: Risks from outdated software.
+Kubernetes Configuration Management:
+
+Access Control: Unauthorized access and modifications.
+Configuration Drift: Misconfigurations due to drift.
+Insecure Secrets Handling: Sensitive data mishandling.
+Exposed Kubernetes API: External access risks.
+Network Security Gaps: Insufficient network security.
+Lack of Patching: Risks from outdated components.
+Configuration Errors: YAML misconfiguration risks.
+Monitoring: Limited auditing risks.
