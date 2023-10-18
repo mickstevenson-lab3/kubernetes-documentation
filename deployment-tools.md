@@ -4,37 +4,37 @@ Objective: To identify a suitable CI/CD (Continuous Integration/Continuous Deplo
 
 functional
 
-CICD Tool
+CI/CD Tool:
 
-Source Code Integration Integrate seamlessly with version control systems (e.g., Git).
-Automated Builds Support automated builds, allowing support for build definitions and build configuration.
-Continuous Integration Support automatic triggers for builds upon code commits.
-Artifact Management Manage and store artifacts from build processes.
-Testing Integration Integration with unit, integration, and end-to-end testing for automated testing. 
-Deployment Automation Automate the deployment process, to selected environments.
-Environment Configuration Support for environment-specific configuration.
-Parallel and Distributed Builds Support parallelizing and distributing builds.
-Deployment Rollback Ability to roll back to a previous version of and application.
-Orchestration Integrate with container orchestration platforms (e.g., Kubernetes).
-Pipeline Customization Allow the definition of CI/CD pipelines.
-Notification and Alerts Integrate with notification systems to alert teams about build and deployment status.
-Security Scanning Integrate with security scanning tools for vulnerability assessment and compliance checks.
-Integration with External Systems Integrate with external systems during the deployment process.
-Monitoring and Logging Provide support for monitoring and logging to track the status and performance of builds and deployments.
-Kubernetes Configuration Management
+Source Integration: Seamless integration with version control systems.
+Automated Builds: Support for automated build processes.
+Continuous Integration: Automatic build triggers on code commits.
+Artifact Management: Management and storage of build artifacts.
+Testing Integration: Integration with various testing types.
+Deployment Automation: Automated deployment to selected environments.
+Environment Configuration: Support for environment-specific setup.
+Parallel Builds: Parallelization and distribution of builds.
+Deployment Rollback: Ability to roll back to previous versions.
+Orchestration: Integration with container orchestration platforms.
+Pipeline Customization: Define custom CI/CD pipelines.
+Notifications: Alerts through integrated notification systems.
+Security Scanning: Integration with security scanning tools.
+External Systems: Integration with external systems.
+Monitoring and Logging: Monitoring and logging support.
+Kubernetes Configuration Management:
 
-Resource Definition Allow users to define Kubernetes resources (e.g., Pods, Deployments, Services) using YAML or JSON manifests.
-Version Control Support version control for configuration files to track changes and facilitate rollbacks.
-Resource Composition Enable the composition of configurations by combining reusable templates and components.
-Configuration Overlays Support the creation of configuration overlays for different environments.
-Validation Validate configurations for adherence to best practices.
-Synchronization Automatically synchronize configurations from source control repositories to the target Kubernetes clusters.
-Secrets and ConfigMap Handling Provide a secure way to manage sensitive configuration data through Kubernetes Secrets and ConfigMaps.
-Resource Management The system should allow the creation, update, and deletion of Kubernetes resources as defined in configuration files.
-Rollbacks Support rollbacks to previous configuration versions in case of issues or failures.
-Access Control Implement role-based access control (RBAC) to restrict who can create, modify, or delete configurations.
-Configuration Auditing Allow for auditing of configuration changes and access to configuration data for compliance and security purposes.
-Integration with CI/CD Integrate with CI/CD pipelines for automated deployments.
+Resource Definition: Define Kubernetes resources via YAML/JSON manifests.
+Version Control: Version control for configuration files.
+Resource Composition: Combine reusable templates and components.
+Configuration Overlays: Create overlays for different environments.
+Validation: Validate configurations for best practices.
+Synchronization: Automatically sync configurations from source control.
+Secrets Handling: Secure management of sensitive data.
+Resource Management: Create, update, and delete resources.
+Rollbacks: Support for configuration rollbacks.
+Access Control: Role-based access control (RBAC).
+Configuration Auditing: Auditing for compliance and security.
+Integration with CI/CD: Integration with CI/CD pipelines.
 
 non functional
 
