@@ -138,3 +138,66 @@ non-functional
 **Low Overhead:** Minimize latency and resource consumption.
 
 **Cost-Efficiency:** Operate cost-effectively in terms of infrastructure and resources.
+
+
+
+
+#####
+security
+
+**Rate Limit Bypass:** Preventing malicious users from bypassing limits.
+
+**Denial-of-Service (DoS) Mitigation:** Guarding against DoS attacks.
+
+**Authentication and Authorization:** Ensuring proper access controls.
+
+**Data Privacy:** Protecting sensitive data within rate limiting.
+
+**Logging and Auditing:** Providing transparency and monitoring.
+
+**Custom Response Handling:** Limiting exposure of rate limiting system details.
+
+**Whitelisting and Blacklisting:** Controlling trusted and malicious entities.
+
+**Secure Configuration:** Safeguarding rate limit settings.
+
+**Rate Limit Evasion:** Blocking evasion techniques.
+
+**Rate Limit Policy Authorization:** Enforcing policy change controls.
+
+**Rate Limit Policies Validation:** Validating policy configurations.
+
+**Security Monitoring:** Using monitoring for anomaly detection.
+
+**Access Control:** Implementing role-based access control.
+
+**Compliance:** Ensuring adherence to regulatory standards.
+
+#####
+risk
+
+**Rate Limit Evasion:** Malicious users may try to bypass limits.
+
+**Performance Impact:** Rate limiting can introduce latency or overhead.
+
+**Misconfiguration:** Errors can block legitimate traffic or allow abuse.
+
+**Rate Limit Exhaustion:** High traffic or attacks may overwhelm limits.
+
+**Monitoring Gaps:** Inadequate monitoring hinders detection.
+
+**Ineffectiveness:** Rate limits may not stop abuse effectively.
+
+**Policy Violations:** Unauthorized changes can disrupt service.
+
+**Rate Limit Bypass:** Attackers may find ways to bypass limits.
+
+**Data Privacy:** Storing user data may raise privacy issues.
+
+**Availability Impact:** Poor rate limiting settings or attacks can affect service availability.
+
+**Regulatory Compliance:** Non-compliance can lead to legal issues.
+
+**False Positives/Negatives:** Aggressive settings block legitimate traffic, while lenient settings allow abuse.
+
+**Complexity:** Overly complex setups pose operational challenges.
