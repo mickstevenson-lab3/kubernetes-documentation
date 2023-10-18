@@ -221,25 +221,25 @@ regenerate 50% shorter
 
 Jenkins:
 
-Requires robust access controls for CI/CD pipeline security.
-Security scanning gaps pose vulnerability risks.
-Limited monitoring capabilities may impact security.
-Artifact management needs careful handling.
-Plugin maintenance is crucial to avoid vulnerabilities.
+Access Control: Careful access control setup needed.
+Plugin Security: Security depends on plugin management.
+Updates: Frequent updates for known vulnerabilities.
+Self-Hosting: Self-hosted instances require security hardening.
+Secrets Management: Secure management of secrets.
 Azure DevOps:
 
-Strong access controls are vital for pipeline security.
-Secure sensitive data management is essential.
-Monitoring and logging help with security incident detection.
-Vulnerabilities in integrated components must be addressed.
-External integration and access control should be secure.
+Azure Security: Relies on Azure's security, but user practices matter.
+Access Control: Effective permissions management required.
+Integration Security: Secure integrations are crucial.
+Updates: Regular platform and service updates.
+Secrets Management: Proper secrets and credentials management.
 FluxCD:
 
-Access control is critical for Git repository security.
-Security scanning gaps need attention.
-Monitoring Git repositories for unauthorized changes is crucial.
-Secure synchronization processes for deployment protection.
-Vigilance in version control security is required.
+GitOps Security: Security depends on secure Git repositories.
+Declarative Approach: Security via declarative, requiring strong Git practices.
+Image Scanning: May require external image scanning.
+YAML Security: Secure handling of YAML config files.
+Continuous Updates: Regular updates and monitoring vital.
 
 #####
 write a summary in dot points of risks comparing jenkins, azure devops and flux cd
