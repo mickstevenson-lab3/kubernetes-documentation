@@ -263,3 +263,52 @@ Operational
 **Training and Expertise Costs:** Staff training or expert hiring may involve additional expenses.
 
 **Compliance Costs:** Ensuring compliance may require investments in compliance tools or services.
+
+#####
+functional fit
+
+Functional Fit of Envoy Filters in API Rate Limiting:
+
+**Rate Limiting Configuration:** Envoy's flexible setup aligns with configuring rate limits based on criteria like routes, methods, and headers.
+
+**Granular Control:** It provides precise control, allowing different rate limits for specific routes.
+
+**Real-Time Adjustment:** Dynamic rate limit changes can be made to adapt to traffic patterns.
+
+**Request Tracking:** Detailed request statistics enable effective rate limit monitoring.
+
+**Request Throttling:** Envoy can delay requests that exceed rate limits to prevent service disruptions.
+
+**Custom Responses:** Custom error responses can be generated when rate limits are breached.
+
+**Whitelisting/Blacklisting:** Envoy supports whitelisting and blacklisting for source IP addresses or specific endpoints.
+
+**Logging and Monitoring:** Comprehensive logging and monitoring capabilities help track rate limiting activities.
+
+
+
+###### overview
+Helm: Kubernetes package manager for simplified application deployment.
+
+Kustomize: Native tool for customizing Kubernetes resource definitions without altering original YAML files.
+
+Kubeconfig: Configuration file for managing multiple Kubernetes clusters.
+
+kubectl: Kubernetes command-line tool for resource and configuration management.
+
+ArgoCD: GitOps tool automating cluster state management via Git repositories.
+
+Flux CD: Another GitOps tool for continuous delivery and configuration management.
+
+Ksonnet: Framework for defining, customizing, and generating Kubernetes configurations.
+
+Jsonnet: Templating language for programmatically generating Kubernetes configurations.
+
+CRDs: Extend Kubernetes API with custom resources for effective configuration management.
+
+Habitat: Packaging tool for building, deploying, and managing applications, including Kubernetes.
+
+ConfigMaps and Secrets: Built-in Kubernetes resources for configuration data and secure information storage.
+
+Istio Configuration Management: Istio's features for controlling routing, security, and microservices in Kubernetes clusters.
+
