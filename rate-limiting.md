@@ -287,34 +287,3 @@ Functional Fit of Envoy Filters in API Rate Limiting:
 
 
 
-###### overview
-Helm: Kubernetes package manager for simplified application deployment.
-
-Kustomize: Native tool for customizing Kubernetes resource definitions without altering original YAML files.
-
-Kubeconfig: Configuration file for managing multiple Kubernetes clusters.
-
-kubectl: Kubernetes command-line tool for resource and configuration management.
-
-ArgoCD: GitOps tool automating cluster state management via Git repositories.
-
-Flux CD: Another GitOps tool for continuous delivery and configuration management.
-
-Ksonnet: Framework for defining, customizing, and generating Kubernetes configurations.
-
-Jsonnet: Templating language for programmatically generating Kubernetes configurations.
-
-CRDs: Extend Kubernetes API with custom resources for effective configuration management.
-
-Habitat: Packaging tool for building, deploying, and managing applications, including Kubernetes.
-
-ConfigMaps and Secrets: Built-in Kubernetes resources for configuration data and secure information storage.
-
-Istio Configuration Management: Istio's features for controlling routing, security, and microservices in Kubernetes clusters.
-
-
-
-
-
-Kubernetes configuration management is facilitated by using tools such as Helm, Kustomize, and kubectl.
-
