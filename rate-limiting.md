@@ -286,4 +286,7 @@ Functional Fit of Envoy Filters in API Rate Limiting:
 **Logging and Monitoring:** Comprehensive logging and monitoring capabilities help track rate limiting activities.
 
 
+=================
+
+discuss functional fit as it relates to  api rate limiting using azure api management
 
