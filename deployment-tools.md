@@ -445,3 +445,19 @@ On the other hand, if you prefer a package manager that simplifies the deploymen
 Ultimately, the choice between Helm and Kustomize depends on your specific needs and the level of control and abstraction you desire for Kubernetes configuration management. You can also consider using them together, as Helm and Kustomize can be used in combination to achieve a balance between ease of use and fine-grained control.
 
 line 27 
+
+
+
+======================================
+Git Hub Enterprise
+======================================
+
+GitHub Enterprise is a self-hosted version of GitHub, for version control and collaborative software development. It is designed to provide organizations with a secure and flexible environment for hosting and managing their code repositories, tracking issues, collaborating on projects, and enabling software development workflows.
+
+
+
+
+
+
+
+
