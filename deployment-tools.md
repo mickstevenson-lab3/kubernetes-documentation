@@ -635,9 +635,11 @@ In summary, the operational complexity and cost for CI/CD and Kubernetes configu
 
 ----------
 security
+write a summary in dot points of security comparing jenkins, azure devops flux cd and github enterprise
 
 ----------
 risk
+write a summary in dot points of risk comparing jenkins, azure devops flux cd and github enterprise
 
 ----------
 overall
